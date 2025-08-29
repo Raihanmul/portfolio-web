@@ -118,7 +118,7 @@ export default function MovingGreeting() {
             className={`grotesk absolute uppercase font-bold ${
               disableTransition ? "" : "transition-all duration-500 ease-in-out"
             } ${getStyle(positions[idx])}`}
-            style={{ WebkitTextStroke: "1px black" }}
+            style={{ WebkitTextStroke: "1.5px black" }}
           >
             {greet}
           </button>

@@ -105,7 +105,7 @@ export default function Home() {
           </motion.div>
         </div>
 
-        <div className="absolute top-10 bottom-4 almost-black flex w-full justify-between font-bold spline text-[18px] lg:text-[24px] max-w-[95%]">
+        <div className="absolute bottom-10 left-0 right-0 almost-black flex w-full justify-between font-bold spline text-[18px] lg:text-[24px] max-w-[95%] mx-auto px-6">
           <p className={`w-full flex justify-start`}>
             <Typewriter
               words={["2025"]}
